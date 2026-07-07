@@ -1,0 +1,36 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & chlamydia\_rate  & gonorrhea\_rate  & syphilis\_rate\\   
+   Model:               & (1)              & (2)              & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   PrEP Rate Age <=24   & -0.5404          & -0.0876          & -0.0632$^{**}$\\   
+                        & (0.5368)         & (0.0531)         & (0.0311)\\   
+   PrEP Rate Age 25-34  & 0.1372           & 0.0007           & -0.0027\\   
+                        & (0.2300)         & (0.0273)         & (0.0170)\\   
+   PrEP Rate Age 35-44  & 0.3819           & 0.0365           & 0.0243\\   
+                        & (0.3547)         & (0.0430)         & (0.0280)\\   
+   PrEP Rate Age 45-54  & 0.1075           & 0.0292           & 0.0231\\   
+                        & (0.4391)         & (0.0446)         & (0.0285)\\   
+   HIV Rate             & -1.153           & 0.2858           & 0.1556\\   
+                        & (0.9851)         & (0.1895)         & (0.1119)\\   
+   Grindr Index         & -0.0080          & -0.0509$^{*}$    & -0.0293\\   
+                        & (0.1758)         & (0.0298)         & (0.0182)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   state                & Yes              & Yes              & Yes\\  
+   year                 & Yes              & Yes              & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations         & 323              & 323              & 323\\  
+   R$^2$                & 0.95134          & 0.88085          & 0.86934\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (state) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
