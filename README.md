@@ -6,6 +6,11 @@ A replication and extension of Eilam & Delhommer's (2021) *PrEP and Moral
 Hazard*, examining the relationship between PrEP adoption and STI rates
 across U.S. states, with an extension analyzing age-group heterogeneity.
 
+**Skills demonstrated:** panel data cleaning and merging from multiple raw
+sources, fixed-effects regression (difference-in-differences), clustered
+standard errors, data visualization (ggplot2), reproducible reporting with
+Quarto, R (tidyverse, fixest, modelsummary).
+
 ---
 
 ## Project Structure
